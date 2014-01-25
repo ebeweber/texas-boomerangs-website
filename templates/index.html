@@ -1,11 +1,69 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel= 'stylesheet' href='{{ url_for('static', filename='css/bootstrap.css') }}'</link>
+    <link rel='stylesheet' href='{{ url_for('static', filename='css/rang.css') }}'</link>
 
-{% block imports %}
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+        <!-- NavBar n' Stuff -->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                    <div class="container">
+                        <a class="brand" href="/">Texas Boomerangs</a>
 
-{% endblock %}
+                        <ul class="nav pull-right">
+                            <li class="active"><a href="#">Home</a>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Members</li></a></li>
+                            <li><a href="https://twitter.com/TexasBoomerangs">@TexasBoomerangs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-{% block title %}Texas Boomerangs{% endblock %}
 
-{% block content %}
-    <h1>Hello World</h1>
-{% endblock %}
+        <!-- Big Boomerang Picture -->
+        <img class="rang-picture" src="{{ url_for('static', filename='img/boomerang.png') }}"/>
+
+        <!-- About Us Section -->
+        <div class="aboutus-sect">
+            <div class="row-fluid au-txt">
+                <div class="span4 offset2">
+                    <h2>Super Exclusive</h2>
+                    <p class="lead">Want to join? Fill out an application. Oh wait.. we are so exclusive there isn't one.</p>
+                </div>
+                <div class="span4">
+                    <h2>Secreter Than Skull & Bones</h2>
+                    <p class="lead">Ever heard of us? That's what I thought. </p>
+                </div>
+            </div>
+
+            <div class="row-fluid au-txt">
+                <div class="span4 offset2">
+                    <h2>Stronger Than Wranglers</h2>
+                    <p class="lead">Do you even lift?</p>
+                </div>
+                <div class="span4">
+                    <h2>Endowed Alumni</h2>
+                    <p class="lead">With alumni like Steve Irwin, Kevin Durant, and Bill Powers our alumni consist
+                    of some of the most well known and respected individuals in the world.</p>
+                </div>
+            </div>
+
+            <div class="row-fluid au-txt">
+                <div class="span4 offset2">
+                    <h2>Hotter Than Spirits</h2>
+                    <p class="lead">Every single one of us is a model.</p>
+                </div>
+                <div class="span4">
+                    <h2>Richer than Fiji</h2>
+                    <p class="lead">Because they are poor.</p>
+                </div>
+            </div>
+        </div>
+
+  </body>
+</html>
