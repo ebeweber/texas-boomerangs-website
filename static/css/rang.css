@@ -10,7 +10,16 @@
 }
 
 .au-txt {
-    opacity: .8;
+    opacity: 1.0;
+}
+
+.au-title {
+    padding-top: 15px;
+    font: 2.5em/1.0em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+}
+
+.au-info {
+    font: 1.5em/1.3em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
 }
 
 .history-sect {
@@ -26,10 +35,13 @@
 
 .hist-info {
     padding-top: 65px;
+    font: 2.4em/1.2em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
 }
 
 .test-sect {
     background-color: #C8C9C7;
+    padding-top: 1px;
+    padding-bottom: 100px;
 }
 
 .hist-title {
@@ -39,6 +51,7 @@
 .testy {
     padding-top: 50px;
     text-align: center;
+    font: 2.0em/1.2em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
 }
 
 .circle {
@@ -69,6 +82,7 @@
     background-color: #115E67;
     color: white;
     padding-top: 5px;
+    padding-bottom: 50px;
 }
 
 .mem-row {
@@ -83,4 +97,10 @@
 
 .hell-title {
     font: 85px/85px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+}
+
+.interested-sect {
+    background-color: #F2A900;
+    padding-top: 1px;
+    padding-bottom: 100px;
 }
