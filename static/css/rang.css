@@ -5,8 +5,38 @@
 .aboutus-sect {
     background-color: #CC5500;
     color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .au-txt {
     opacity: .8;
+}
+
+.history-sect {
+    background-color: #D6D2C4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hist-title {
+    text-align: center;
+    font-size: 600%;
+}
+
+.hist-info {
+    padding-top: 65px;
+}
+
+.test-sect {
+    background-color: #C1F0F6;
+}
+
+.hist-title {
+    padding-top: 100px;
+}
+
+.testy {
+    padding-top: 50px;
+    text-align: center;
 }
