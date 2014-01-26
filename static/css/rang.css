@@ -62,6 +62,13 @@
     width: 200px;
 }
 
+.circle:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    opacity: .8;
+}
+
 .mem {
     margin: auto;
     display: block;
