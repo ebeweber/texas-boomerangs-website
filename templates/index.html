@@ -5,6 +5,7 @@
     <link rel='stylesheet' href='{{ url_for('static', filename='css/rang.css') }}'</link>
     <link rel='javascript' href="http://code.jquery.com/jquery-2.1.0.min.js"/ >
 
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -33,6 +34,9 @@
                         <a class="brand" href="/">Texas Boomerangs</a>
 
                         <ul class="nav pull-right">
+                            <li><a onclick="$('html,body').animate({scrollTop: $('.history-sect').offset().top}, 1000)">History</a></li>
+                            <li><a onclick="$('html,body').animate({scrollTop: $('.members-sect').offset().top}, 1000)">Members</a></li>
+                            <li><a onclick="$('html,body').animate({scrollTop: $('.test-sect').offset().top}, 1000)">Testimonials</a></li>
                             <li><a href="https://twitter.com/TexasBoomerangs">@TexasBoomerangs</a></li>
                         </ul>
                         </div>
